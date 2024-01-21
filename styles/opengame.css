@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+
+    /* background-image: url("C:/final projeqt js/imgs/bake.jpeg"); */
+    background: linear-gradient(120deg, #3A98D6, #BA5FE0);
+    background-size: 100% 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game {
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 220px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+}
+
+.game a {
+    text-decoration: none;
+    color: black;
+}
+
+.game p {
+    margin: 10px 0;
+}

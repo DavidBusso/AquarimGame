@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/opengame.css">
+   
+</head>
+
+<body>
+    <h1 id="thisuser">
+        hello: david
+    </h1>
+    <script>
+        let thisuser = JSON.parse(localStorage.getItem('thisuser'));
+        document.getElementById("thisuser").innerText = "hello: " + thisuser.name;
+    </script>
+    <div class="background">
+        <div class="game">
+            <a href="aquariumgame.html">
+                <img src="imgs/background.gif" alt="Game 1">
+                <p>aquarium</p>
+            </a>
+        </div>
+        <div class="game">
+            <a href="chessboard.html">
+                <img src="imgs/checors.jpeg" alt="Game 2">
+                <p>checors</p>
+            </a>
+        </div>
+        <div class="game">
+            <a href="https://www.azrieli.com/c/toys-games">
+                <img src="imgs/footbool.jpeg" alt="Game 3">
+                <p>Game 3</p>
+            </a>
+        </div>
+        <div class="game">
+            <a href="https://ksp.co.il/web/world/2">
+                <img src="imgs/basketbool.jpeg" alt="Game 4">
+                <p>Game 4</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

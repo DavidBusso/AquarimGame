@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="styles/loginAndRegister.css">
+
+</head>
+
+<body>
+    <div class="center">
+        <h1>login</h1>
+
+        <form method="post" action="login.html">
+            <div class="txt_field">
+                <input id="name2" type="text" name="name1" required>
+                <label>user name</label>
+            </div>
+
+            <div class="txt_field">
+                <input id="phone1" type="tel" name="phone" required
+                    oninput="this.value = this.value.replace(/[^-0-9]/g, '');">
+                <label>phoneNumber </label>
+            </div>
+            <div class="txt_field">
+                <input id="email1" type="email" name="email" required>
+                <label>enter your mail white @</label>
+            </div>
+            <div class="txt_field">
+                <input id="password1" type="password" name="password" required>
+                <span></span>
+                <label>password</label>
+            </div>
+            <br><br><br>
+            <div class="pass">
+                <button type="submit" id="b1">הרשמה</button>
+                <div class="signup_link">
+                    <br>
+                    <a href="login.html" id="b2">משתמש רשום</a>
+                </div>
+        </form>
+    </div>
+
+    <script src="jsfiles/register.js"></script>
+</body>
+
+</html>
